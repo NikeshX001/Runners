@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
 env:
   #Authenticate with Ephemeral Key: https://login.tailscale.com/admin/settings/keys
-  TSKEY: "tskey-auth-k78hZx3CNTRL-QoNuGzfnSfAW2L6os3QFfARovMGq5Lhi"
+  TSKEY: "tskey-auth-kfVcBA5CNTRL-9ij5f3MZEa6yJGrbtEHma6FFY9jsXgqN"
   #The hostname you want your machine to have
   THOST: "gh-runner-windows"
   #Password for RDP || SSH || Windows_ADMIN 
   WINDOWS_PASSWORD: "0xff_WIN1337f#"
   #Public SSH Keys (id_rsa.pub NOT PRIVATE KEY --> https://github.com/settings/ssh/new)
-  SSH_PUBLIC_KEY_URL: "https://github.com/Avinash0x1.keys" 
+  SSH_PUBLIC_KEY_URL: "https://github.com/NikeshX001.keys" 
   
 jobs:
   build:
